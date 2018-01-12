@@ -29,31 +29,6 @@
   </head>
 
   <body id="page-top">
-    
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-       var js, fjs = d.getElementsByTagName(s)[0];
-       if (d.getElementById(id)) return;
-       js = d.createElement(s); js.id = id;
-       js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
-       fjs.parentNode.insertBefore(js, fjs);
-     }(document, 'script', 'facebook-jssdk'));
-    </script>
-    
-    <script>window.twttr = (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0],
-      t = window.twttr || {};
-      if (d.getElementById(id)) return t;
-      js = d.createElement(s);
-      js.id = id;
-      js.src = "https://platform.twitter.com/widgets.js";
-      fjs.parentNode.insertBefore(js, fjs);
-      t._e = [];
-      t.ready = function(f) {
-        t._e.push(f);
-      };
-      return t;
-    }(document, "script", "twitter-wjs"));</script>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -168,17 +143,24 @@
 
     <section class="contact bg-primary" id="contact">
       <div class="container">        
-            <div class="fb-like" 
-                 data-href="https://coyotehillsstudio.github.io/retrogamecenter/" 
-                 data-layout="button_count" 
-                 data-action="like" 
-                 data-size="small" 
-                 data-show-faces="false" 
-                 data-share="false">
-            </div>
-            <a class="twitter-share-button"
-               href="https://twitter.com/intent/tweet?text=Awesome!">Tweet</a>
-            <g:plusone size="tall"></g:plusone>
+        <ul class="list-inline list-social">
+          <li class="list-inline-item social-facebook">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//coyotehillsstudio.github.io/retrogamecenter/">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li> 
+          <li class="list-inline-item social-twitter">
+             <a href="https://twitter.com/home?status=https%3A//coyotehillsstudio.github.io/retrogamecenter/">
+               <i class="fa fa-twitter"></i>
+             </a>
+           </li>
+           
+           <li class="list-inline-item social-google-plus">
+             <a href="https://plus.google.com/share?url=https%3A//coyotehillsstudio.github.io/retrogamecenter/">
+               <i class="fa fa-google-plus"></i>
+             </a>
+           </li>
+         </ul>
       </div>
     </section>
 
@@ -208,10 +190,6 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/new-age.min.js"></script>
-    
-    <!-- Scripts for google plus one -->
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-  
 
   </body>
 
