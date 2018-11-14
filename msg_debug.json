@@ -1,1 +1,1 @@
-[{"condition": "version == '1.2.5'", "content":"<h1>Hello world</h1>"}]
+[{"condition": "$VERSION == '1.2.5'", "content":"<h1>Hello world</h1>"}]
