@@ -1,12 +1,16 @@
 [
   {
     "condition": "$APP_STORE == 'play.google.com'",
-    "content_en":"<h1>New App Store Listing</h1>",
-    "content_zh":"<h1>应用商店变更</h1>"
+    "content": {
+      "en": "<h1>New App Store Listing</h1>",
+      "zh":"<h1>应用商店变更</h1>"
+    }
   },
   {
     "condition": "$VERSION < 126",
-    "content_en":"<h1>New Version Available!</h1>",
-    "content_zh":"<h1>应用更新</h1>"
+    "content": {
+      "en": "<h1>New Version Available!</h1>", 
+      "zh":"<h1>应用更新</h1>"
+    }
   }
 ]
