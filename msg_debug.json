@@ -9,8 +9,8 @@
   {
     "condition": "$VERSION < 126",
     "content": {
-      "en": "<h1>New Version Available!</h1>", 
-      "zh":"<h1>应用更新</h1>"
+      "en": "<h1>New Version Available!</h1><p><a href="https://play.google.com/store/apps/details?id=com.chg.retrogamecenter">Update Here</a></p>", 
+      "zh":"<h1>应用更新</h1><p><a href="https://play.google.com/store/apps/details?id=com.chg.retrogamecenter">去更新</a></p>"
     }
   }
 ]
